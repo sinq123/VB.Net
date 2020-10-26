@@ -1,0 +1,67 @@
+'Single 单精度
+'Double 双精度
+'Char 一个字符
+'String 字符串
+'boolean True or False
+'Data 日期
+'赋值 Dim 变量名 As 类型
+'数组声明
+'Dim n(3) As Integer
+'Dim n() As Integer = {100, 20, 10}
+'常量
+'Const 常量名 As 类型
+'类型转换
+'CRool 转 boolean
+'CByte 转 Byte
+'Char 转 Char
+'CDate 转 时间格式
+'CDbl 转 Double
+'CInt 转 Integer
+'CLng 转 Long
+'CSho 转 short
+'CStr 转 string
+'CType 转 任意类型
+
+全局变量
+私有和公用
+Privale public
+
+比较符号
+>	大于
+<	小于
+=	等于
+<>	不等于
+>=	大于等于
+<=	小于等于
+
+like
+*,	任意一个字符
+?	代表一个字符
+#	代表任意一个数字（0-9）
+
+Select Case 语句
+
+循环
+For Next
+结束循环 Exit For
+
+while 条件
+	执行语句
+End while
+结束循环 Exit while
+
+do while 条件
+Loop
+
+do
+Loop while 条件
+
+do Until 条件
+Loop
+
+do
+Loop Until 条件
+结束循环 Exit do
+
+Step 定时器
+
