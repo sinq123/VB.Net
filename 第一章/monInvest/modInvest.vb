@@ -31,7 +31,7 @@
 
     Private Sub DisplayResults(ByVal Result As Double)
         Console.WriteLine()
-        Console.WriteLine("If you start with {0:c},", decStartingBalance)
+        Console.WriteLine(format:="If you start with {0:c},", arg0:=decStartingBalance)
         Console.WriteLine(" and invest {0:c} per month", decMonthlyDeposit)
         Console.WriteLine("for {0} years", iYears)
         Console.WriteLine("at {0}% interest.", dbLAnnualInterest)
